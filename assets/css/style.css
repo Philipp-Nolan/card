@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #5e9ea0;
+}
+
+.card {
+  height: 760px;
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+.orange .white {
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.orange {
+  width: 660px;
+  height: 360px;
+  background: #e85b26;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.white {
+  width: 660px;
+  height: 400px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.user-img {
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: -53vh;
+  width: 210px;
+  height: 210px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-image: url(../img/user.svg);
+}
+
+h1 {
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: 10px;
+  width: 320px;
+  height: 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 0.9em;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.web-dew {
+  margin-top: -30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #b9b9b9;
+  text-align: center;
+}
+
+.btn {
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: 45px;
+  display: block;
+  width: 160px;
+  height: 40px;
+  color: #5a5757;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2em;
+}
+a:hover {
+  background: #e85b26;
+  color: #fff;
+}
+
+.followers {
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
